@@ -8,7 +8,7 @@ The interface is [CinemaHub](https://github.com/maornetzer9/Movies). Movies, mem
 
 ## Live demo
 
-[CinemaHub](https://cinemahub.onrender.com) · [This API](https://movies-user-backend.onrender.com/health)
+[CinemaHub](https://cinemahub-xi3w.onrender.com) · [This API](https://movies-user-backend.onrender.com/health)
 
 This service has no interface. Product screenshots are in the [frontend repository](https://github.com/maornetzer9/Movies).
 
@@ -80,7 +80,7 @@ Copy `.env.example` to `.env`. Never commit `.env`.
 |---|---|---|
 | `SECRET_KEY` | Yes | Must match the catalog API |
 | `MONGOOSE_URI` | Yes | Same database as the catalog API |
-| `ORIGIN` | Yes | One frontend origin, or a comma-separated list. Production includes `https://cinemahub.onrender.com` and `https://movies-jps0.onrender.com` |
+| `ORIGIN` | Yes | One frontend origin, or a comma-separated list. Production includes `https://cinemahub-xi3w.onrender.com` and `https://movies-jps0.onrender.com` |
 | `PORT` | No | Defaults to `3000`. Render provides this value |
 | `TRUST_PROXY_HOPS` | On Render | Set to `1` behind one Render proxy hop |
 | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` | For welcome email | The account is still created if email fails |
