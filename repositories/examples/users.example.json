@@ -1,0 +1,9 @@
+[
+  {
+    "_id": "000000000000000000000001",
+    "firstName": "Avery",
+    "lastName": "Example",
+    "sessionTimeout": 60,
+    "createAt": "1/1/2026"
+  }
+]

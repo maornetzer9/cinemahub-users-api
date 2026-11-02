@@ -1,0 +1,20 @@
+{
+  "watch": [
+    "server.js",
+    "app.js",
+    "config",
+    "controllers",
+    "middleware",
+    "models",
+    "repositories/userProfileRepository.js",
+    "responses",
+    "routes",
+    "services",
+    "utils"
+  ],
+  "ignore": [
+    "repositories/*.json",
+    "repositories/examples"
+  ],
+  "exec": "node"
+}
